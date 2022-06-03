@@ -1,0 +1,55 @@
+[
+    {
+        "id": "1",
+        "name": "Cinema City",
+        "screenings": [
+            {
+                "movie": {
+                    "id": "1",
+                    "name": "James Bond"
+                },
+                "date": "05062022"
+            },
+            {
+                "movie": {
+                    "id": "2",
+                    "name": "The Simpsons"
+                },
+                "date": "07062022"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Yes Planet",
+        "screenings": [
+            {
+                "movie": {
+                    "id": "1",
+                    "name": "James Bond"
+                },
+                "date": "10072022"
+            },
+            {
+                "movie": {
+                    "id": "2",
+                    "name": "The Simpsons"
+                },
+                "date": "11082022"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Rav Hen",
+        "screenings": [
+            {
+                "movie": {
+                    "id": "5",
+                    "name" : "Funny Neighbors"
+                },
+                "date": "25062022"
+            }
+        ]
+    }
+]
