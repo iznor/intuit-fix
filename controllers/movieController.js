@@ -11,6 +11,10 @@ exports.movieController = {
                 });
             }
         })
-        res.json(result).status(200);
+        if (result.length>0) {
+            res.status(200).json(result);
+        }else{
+            res.status(404).json({"Warning":"Can't find a movie that is screened by this theater in the selected dates"})
+        }
     }
 };
